@@ -1,0 +1,130 @@
+* {
+  font-family: monospace;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  font-weight: normal;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: underline;
+}
+
+html, body {
+  height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+  background-color: darkolivegreen;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+  padding: 15px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  background-color: darkolivegreen;
+  border-top: 2px solid black;
+  margin-top: 15px;
+  margin-block-end: 15px;
+  align-items: center;
+  justify-content: center;
+}
+footer a {
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 15px;
+}
+
+h1 {
+  margin-left: 15px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+article {
+  margin: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+article header {
+  margin: 5;
+  padding: 5;
+  height: 8%;
+  width: 100%;
+  font-size: 0.9em;
+  align-self: flex-start;
+  color: white;
+  background-color: #060D1A;
+  text-transform: uppercase;
+}
+article p, article a {
+  text-align: justify;
+  padding: 5;
+}
+article div {
+  text-align: justify;
+  border: none;
+  padding: 5;
+}
+
+@media all and (max-width: 900px) {
+  main {
+    flex-wrap: wrap;
+  }
+
+  .content header {
+    max-width: 100%;
+  }
+}
+.date {
+  color: #9e9595;
+  font-size: medium;
+}
+
+.grid {
+  width: 100%;
+  margin-block-start: 15px;
+  padding: 5;
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 5px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 0;
+}
+
+.progress_bar {
+  background-color: lightgray;
+  padding: 3px;
+  width: 40%;
+}
+
+.python_progress {
+  background-color: #302e2e;
+  width: 10%;
+}
+
+/*# sourceMappingURL=styles.css.map */
