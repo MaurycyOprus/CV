@@ -11,6 +11,10 @@ $backcolor : darkolivegreen;
 }
 
 
+a{
+    text-decoration: underline;
+}
+
 html, body {
     height: 100%;
   }
@@ -51,12 +55,11 @@ footer{
     margin-top: 15px;
     align-items: center;
     justify-content: center;
-    a+p, a{
-        font-weight: bold;
-    }
     a{
         align-self: center;
         text-decoration: underline;
+        margin-bottom: 15px;
+        font-weight: bold;
     }
 }
 
@@ -106,6 +109,30 @@ article{
             max-width: 100%;
         }
     }
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 0;
+    a{
+        padding-left: 15px;
+    }
+}
+
+.date{
+    color: rgb(158, 149, 149);
+    font-size: medium;
+}
+
+.grid{
+    width: 100%;
+    margin-block-start: 15px;
+    padding: 5;
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 5px;
 }
 
 .progress_bar{
