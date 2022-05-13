@@ -88,7 +88,7 @@ article{
         text-transform: uppercase;
     }
     p, a{
-        text-align: justify;
+        text-align: left;
         padding: 15px;
     }
     a{
@@ -100,7 +100,7 @@ article{
     }
 }
 
-@media all and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
     main {
     display: flex;
     flex-wrap: wrap;
