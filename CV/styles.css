@@ -102,6 +102,11 @@ article div {
   .content header {
     max-width: 100%;
   }
+  .content header .column {
+    flex-wrap: wrap;
+    line-height: normal;
+    margin: 0;
+  }
 }
 .column {
   display: flex;

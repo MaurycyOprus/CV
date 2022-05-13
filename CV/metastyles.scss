@@ -108,6 +108,11 @@ article{
     .content{
         header{
             max-width: 100%;
+            .column{
+                flex-wrap: wrap;
+                line-height: normal;
+                margin: 0;
+            }
         }
     }
 }
