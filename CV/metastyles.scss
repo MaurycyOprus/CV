@@ -77,15 +77,15 @@ article{
     display: flex;
     flex-direction: column;
     header{
-        height: 10%;
-        width: 30%;
+        margin: 5;
+        padding: 5;
+        height: 8%;
+        width: 100%;
         font-size: 0.9em;
         align-self: flex-start;
         color: white;
         background-color: #060D1A;
         text-transform: uppercase;
-        border-right: 2px solid $frontcolor;
-        border-bottom: 2px solid $frontcolor;
     }
     p, a{
         text-align: justify;
@@ -102,6 +102,7 @@ article{
 
 @media all and (max-width: 900px) {
     main {
+    display: flex;
     flex-wrap: wrap;
     }
     .content{
@@ -143,4 +144,4 @@ article{
 .python_progress{
     background-color: rgb(48, 46, 46);
     width: 10%;
-  }
+}

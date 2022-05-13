@@ -71,15 +71,15 @@ article {
   flex-direction: column;
 }
 article header {
-  height: 10%;
-  width: 30%;
+  margin: 5;
+  padding: 5;
+  height: 8%;
+  width: 100%;
   font-size: 0.9em;
   align-self: flex-start;
   color: white;
   background-color: #060D1A;
   text-transform: uppercase;
-  border-right: 2px solid black;
-  border-bottom: 2px solid black;
 }
 article p, article a {
   text-align: justify;
@@ -95,6 +95,7 @@ article div {
 
 @media all and (max-width: 900px) {
   main {
+    display: flex;
     flex-wrap: wrap;
   }
 
